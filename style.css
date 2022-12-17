@@ -1,0 +1,25 @@
+body{
+    font-family:'freehand',cursive;
+    background: rgb(184,255,168);
+    background: linear-gradient(180deg, rgba(184,255,168,1) 0%, rgba(255,111,0,1) 100%);
+}
+#show_sketches{
+    float: right;
+    margin-left: -80px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+p{
+    padding: 10px;
+    font-size: 25px;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 40px grey;}
+    to{box-shadow: 1px 1px 40px white;}
+}
